@@ -1,0 +1,20 @@
+This file has some explaintion and illustration of this assignment.
+
+The database used for this assignment is MySQL from AWS RDS. There is only one table called Albums. It has five properties. The following is the SQL used to create
+this table. ImageData stands for the bytes of the image. ImageSize indicates the size of the image. It's 3475 bytes.
+
+CREATE TABLE Albums (
+	AlbumId INT AUTO_INCREMENT PRIMARY KEY,
+    Artist VARCHAR(255),
+    Title  VARCHAR(255),
+    ReleaseYear VARCHAR(255),
+    ImageSize VARCHAR(255),
+    ImageData BLOB
+);
+
+
+In the part2. I added a new server and used the load balancer to distribute requests. The overall performance(throughput) increases 8%~20% after testing multiple times
+In the part3, I added one more server to receive requests. The final results show that the increase(throughput) is around 13%
+
+
+The results are recorded as screen shots and tables. They are stored in the screenshots directory.
