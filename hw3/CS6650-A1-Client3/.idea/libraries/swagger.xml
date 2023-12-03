@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="swagger">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../java-client-generated" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../java-client-generated" recursive="false" />
+  </library>
+</component>
