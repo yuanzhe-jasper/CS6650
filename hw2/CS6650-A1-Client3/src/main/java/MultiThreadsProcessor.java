@@ -182,8 +182,12 @@ public class MultiThreadsProcessor {
 //        2, "http://localhost:8080/MusicServlet_war_exploded");
 //    processor.execute();
 
-    MultiThreadsProcessor processor = new MultiThreadsProcessor(new RequestCounter(), 10, 30,
-        2, "http://35.166.114.234:8080/MusicServlet_war");
-    processor.execute();
+//    MultiThreadsProcessor testProcessor = new MultiThreadsProcessor(new RequestCounter(), 10, 30,
+//        2, "http://cs6650-balancer-1453073212.us-west-2.elb.amazonaws.com:8080/java_servlet-1.0-SNAPSHOT/");
+//    testProcessor.execute();
+
+    // MultiThreadsProcessor processor = new MultiThreadsProcessor(new RequestCounter(), 10, 30,
+    //     2, "http://35.166.114.234:8080/MusicServlet_war");
+    // processor.execute();
     }
 }
